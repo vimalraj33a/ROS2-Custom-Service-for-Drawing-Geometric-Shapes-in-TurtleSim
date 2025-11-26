@@ -1,0 +1,9 @@
+# request
+string shape # e.g. "circle", "square", "rectangle", "triangle"
+float64[] params # parameters for shape (interpretation below)
+---
+# response
+bool success
+string shape_name
+float64[] dimensions # e.g. [radius] or [side] or [width, height]
+string message
